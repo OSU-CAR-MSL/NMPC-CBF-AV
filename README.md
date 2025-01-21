@@ -39,6 +39,8 @@ The three scenarios considered in the paper are:
 
 (3) overtaking the lead vehicle scenario
 
+![Video Overtake gif](https://github.com/user-attachments/assets/b17d1c8c-8f3f-46e6-965d-a8ba9faf9f6b)
+
 (3.1)  MPC-DC controller performance in overtaking the lead vehicle scenario
 
 ![Overtake MPC-DC](https://github.com/user-attachments/assets/b5b14d4c-6d5e-444a-a4cb-a57ee2bedcac)
