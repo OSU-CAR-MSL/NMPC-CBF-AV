@@ -37,18 +37,16 @@ The three scenarios considered in the paper are:
 
 ![ped MPC-CBF](https://github.com/user-attachments/assets/2a22d873-2fd7-4718-8d7e-c2cb9344ffd9)
 
+(3) overtaking the lead vehicle scenario
 
+(3.1)  MPC-DC controller performance in overtaking the lead vehicle scenario
 
+![Overtake MPC-DC](https://github.com/user-attachments/assets/b5b14d4c-6d5e-444a-a4cb-a57ee2bedcac)
 
+(3.2)  MPC-CBF-QP controller performance in overtaking the lead vehicle scenario
 
+![Overtake MPC-CBF-QP](https://github.com/user-attachments/assets/9ef770ba-6121-49a6-84a1-8f3aa33bdea1)
 
+(3.3)  MPC-CBF controller performance in overtaking the lead vehicle scenario
 
-
-
-
-
-
-
-
-
-
+![Overtake MPC-CBF](https://github.com/user-attachments/assets/bcdac3e8-aeec-4196-8c6f-c0523ab94ac7)
