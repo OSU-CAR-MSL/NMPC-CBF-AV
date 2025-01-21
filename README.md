@@ -53,4 +53,4 @@ The three scenarios considered in the paper are:
 
 ![Overtake MPC-CBF](https://github.com/user-attachments/assets/bcdac3e8-aeec-4196-8c6f-c0523ab94ac7)
 
-Note that the tests were conducted in a controlled environmet and not on public roads. All the safety precautions were considered in the autonomous testing. 
+Note that the tests were conducted in a controlled environmet and not on public roads. All the safety precautions were considered in the autonomous testing. Higher resolution videos are availabe as files for download. 
