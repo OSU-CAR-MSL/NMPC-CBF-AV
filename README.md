@@ -29,3 +29,26 @@ The three scenarios considered in the paper are:
 
 ![ped MPC-DC](https://github.com/user-attachments/assets/57ec408c-c443-4f05-98f0-a176530b4400)
 
+(2.2)  MPC-CBF-QP controller performance in sudden pedestrian interaction scenario
+
+![ped MPC-CBF-QP](https://github.com/user-attachments/assets/7aca7da7-bfb6-47ba-9d71-492d298045a3)
+
+(2.3)  MPC-CBF controller performance in sudden pedestrian interaction scenario
+
+![ped MPC-CBF](https://github.com/user-attachments/assets/2a22d873-2fd7-4718-8d7e-c2cb9344ffd9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
