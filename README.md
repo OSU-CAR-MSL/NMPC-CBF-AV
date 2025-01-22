@@ -2,6 +2,15 @@
 
 This repository includes testing videos and scenarios for "Evaluation of Nonlinear Model Predictive Control and Control Barrier Functions-Based Autonomous Driving," submitted in NOLCOS 2025.
 
+## Table of Contents
+
+- [About](#about)
+- [Scenario i - Avoiding static obstacles](#scenario-i---avoiding-static-obstacles)
+- [Scenario ii - Sudden pedestrian interaction](#scenario-ii---sudden-pedestrian-interaction)
+- [Scenario iii - Overtaking the lead vehicle](#scenario-iii---overtaking-the-lead-vehicle)
+- [Abstract](#abstract)
+
+
 # About
 This paper implements three nonlinear MPC control strategies across different scenarios for autonomous vehicles. 
 It includes an in-depth analysis and performance evaluation of each strategy.
