@@ -75,7 +75,7 @@ The lead vehicle is the human driver on the trajectory, and the cones are placed
 
 ## Contributors
 
-- [Vishnu, Renganathan](https://github.com/vishnurenganathan5)
+- [Vishnu, Renganathan](https://scholar.google.com/citations?user=NgX2yzMAAAAJ&hl=en)
 - [Pei Yu, Chang](https://github.com/PYBEARC)
 - [Qadeer, Ahmed](https://mae.osu.edu/people/ahmed.358)
 
