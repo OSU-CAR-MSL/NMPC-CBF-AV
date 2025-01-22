@@ -1,6 +1,6 @@
 # **Evaluation of Nonlinear Model Predictive Control and Control Barrier Functions-Based Autonomous Driving**
 
-This repository includes testing videos and scenarios for "Evaluation of Nonlinear Model Predictive Control and Control Barrier Functions-Based Autonomous Driving," submitted in NOLCOS 2025.
+This repository includes testing videos and scenarios for "Evaluation of Nonlinear Model Predictive Control and Control Barrier Functions-Based Autonomous Driving," submitted to NOLCOS 2025.
 
 ## Table of Contents
 
