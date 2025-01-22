@@ -18,10 +18,10 @@ It includes an in-depth analysis and performance evaluation of each strategy.
 
 ## Abstract
 
-The safety of Autonomous Vehicles (AVs) remains a key challenge for developers and stakeholders due to the dynamic environments in which they operate. From a control perspective, nonlinear model predictive control (MPC) is a powerful control strategy to operate in such dynamic environments. This paper evaluates the performance and compares the safety criteria for AV controllers designed using MPC and control barrier functions (CBFs) that ensure safety in obstacle avoidance through the principle of set invariance. With MPC, there are two design approaches: CBFs formulated as a discrete-time constraint (MPC-CBF) or as a quadratic program (MPC-CBF-QP). In addition to CBFs, a more straightforward approach for obstacle avoidance is to use the safe-Distance Constraints in the MPC formulation (MPC-DC). The results of these three nonlinear MPC control strategies: (I) MPC-DC,  (II) MPC-CBF-QP, and (III) MPC-CBF implemented on an actual vehicle in autonomous mode are discussed in detail. Their performance and safety conditions are compared in three common urban and highway driving scenarios: (i) avoiding static obstacles, (ii) sudden pedestrian interaction, and (iii) overtaking the lead vehicle (LV). Based on the experiments, it is observed that the MPC-CBF-QP is computationally efficient and guarantees safety in all considered scenarios, MPC-DC often fails to meet safety requirements in critical scenarios and MPC-CBF performance heavily depends on prediction, control, and CBF horizon.
+The safety of Autonomous Vehicles (AVs) remains a key challenge for developers and stakeholders due to the dynamic environments in which they operate. From a control perspective, nonlinear model predictive control (MPC) is a powerful control strategy to operate in such dynamic environments. This paper evaluates the performance and compares the safety criteria for AV controllers designed using MPC and control barrier functions (CBFs) that ensure safety in obstacle avoidance through the principle of set invariance. With MPC, there are two design approaches: CBFs formulated as a discrete-time constraint (MPC-CBF) or as a quadratic program (MPC-CBF-QP). In addition to CBFs, a more straightforward approach for obstacle avoidance is to use the safe-Distance Constraints in the MPC formulation (MPC-DC). The results of these three nonlinear MPC control strategies: (I) MPC-DC,  (II) MPC-CBF-QP, and (III) MPC-CBF implemented on an actual vehicle in autonomous mode are discussed in detail. Their performance and safety conditions are compared in three common urban and highway driving scenarios: (i) avoiding static obstacles, (ii) sudden pedestrian interaction, and (iii) overtaking the lead vehicle (LV). Based on the experiments, it is observed that the MPC-CBF-QP is computationally efficient and guarantees safety in all considered scenarios, MPC-DC often fails to meet safety requirements in critical scenarios, and MPC-CBF performance heavily depends on prediction, control, and CBF horizon.
 
 ## Scenario i - Avoiding static obstacles
-The cones representing the static obstacle are positioned along the trajectory.
+The cones represent the static obstacles positioned along the trajectory.
 
 ![Static Obstacle - GIF](https://github.com/user-attachments/assets/f1034199-e3f7-4d5f-b6a5-8e9a1a9bd224)
 
@@ -42,20 +42,20 @@ A pedestrian, initially not in the AV's field of view (FOV), starts moving towar
 
 ![Video Sudden Pedestrian GIF](https://github.com/user-attachments/assets/7cff3b7d-54f9-4db0-a61e-4c6f092ad3bc)
 
-(2.1)  MPC-DC controller performance in sudden pedestrian interaction scenario
+(2.1)  MPC-DC controller performance in a sudden pedestrian interaction scenario
 
 ![ped MPC-DC](https://github.com/user-attachments/assets/57ec408c-c443-4f05-98f0-a176530b4400)
 
-(2.2)  MPC-CBF-QP controller performance in sudden pedestrian interaction scenario
+(2.2)  MPC-CBF-QP controller performance in a sudden pedestrian interaction scenario
 
 ![ped MPC-CBF-QP](https://github.com/user-attachments/assets/7aca7da7-bfb6-47ba-9d71-492d298045a3)
 
-(2.3)  MPC-CBF controller performance in sudden pedestrian interaction scenario
+(2.3)  MPC-CBF controller performance in a sudden pedestrian interaction scenario
 
 ![ped MPC-CBF](https://github.com/user-attachments/assets/2a22d873-2fd7-4718-8d7e-c2cb9344ffd9)
 
 ## Scenario iii - Overtaking the lead vehicle
-The lead vehicle is the human driver on the trajectory, and the cones are placed for safety purposes.
+The lead vehicle is a human-driven vehicle on the trajectory, and the cones are placed for safety purposes.
 
 ![Video Overtake gif](https://github.com/user-attachments/assets/b17d1c8c-8f3f-46e6-965d-a8ba9faf9f6b)
 
@@ -71,7 +71,7 @@ The lead vehicle is the human driver on the trajectory, and the cones are placed
 
 ![Overtake MPC-CBF](https://github.com/user-attachments/assets/bcdac3e8-aeec-4196-8c6f-c0523ab94ac7)
 
-**Note:**  All tests were conducted in a controlled environment and not on public roads. All the safety precautions were considered in the autonomous testing. Higher resolution videos are availabe as files for download..
+**Note:**  All tests were conducted in a controlled environment, not on public roads. All the safety precautions were considered in the autonomous testing. Higher-resolution videos are available as files for download. The videos are played at a faster speed for visualization purposes. The actual vehicle speed is provided as a scenario parameter in the paper. 
 
 ## Contributors
 
